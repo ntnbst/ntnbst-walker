@@ -1,0 +1,65 @@
+:root {
+    --primary-nav-color: rgba(255, 255, 255, 0.8);
+}
+
+body {
+  background: #0F1122;
+}
+
+.App {
+
+}
+
+@keyframes add_elem{
+  0%{
+      opacity:0
+  }
+  10%{
+      opacity:1
+  }
+  20%{
+      opacity:0
+  }
+  30%{
+      opacity:1
+  }
+  40%{
+      opacity:0
+  }
+  50%{
+      opacity:1
+  }
+  60%{
+      opacity:0
+  }
+  70%{
+      opacity:1
+  }
+  80%{
+      opacity:0
+  }
+  90%{
+      opacity:1
+  }
+  95%{
+      opacity:0
+  }
+  100%{
+      opacity:1
+  }
+}
+
+
+.flicker:hover {
+  opacity: 1;
+  animation-name: add_elem;
+  animation-duration: 0.5s;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+
